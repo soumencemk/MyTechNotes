@@ -82,7 +82,23 @@ To avoid this anti-pattern, it is important to design systems with a modular and
 
 
 ## 2. OOP Antipatterns
+
+
 ### 2.1 Anemic domain model
+
+Anemic domain model is an anti-pattern in software development where the domain model in an object-oriented program is designed to only contain data structures and basic accessors, without any significant business logic or behavior. This approach often results in a system where most of the business logic is placed in external services, rather than being part of the domain model itself.
+
+The term "anemic domain model" was coined by Martin Fowler in his book "Patterns of Enterprise Application Architecture". According to Fowler, anemic domain models are problematic because they violate the principles of object-oriented programming, such as encapsulation and the use of behavior-rich objects. An anemic domain model can lead to several issues, including:
+
+Increased coupling: An anemic domain model often leads to a system where the domain objects are tightly coupled with external services, which can make the system more difficult to maintain and change.
+
+Reduced code reuse: Anemic domain models tend to have less reusable code, as the business logic is scattered across multiple services rather than being contained within the domain objects.
+
+Reduced maintainability: With business logic spread across multiple services, an anemic domain model can be harder to understand, modify and maintain.
+
+In summary, an anemic domain model is an anti-pattern because it undermines the principles of object-oriented programming and can lead to several problems in software development, such as increased coupling, reduced code reuse, and reduced maintainability.
+
+
 ### 2.2 Call super
 ### 2.3 Circle-elipse problem
 ### 2.4 circular dependency

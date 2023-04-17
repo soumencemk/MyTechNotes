@@ -1,6 +1,6 @@
 # __Antipatterns__
 
-## 1. Software Design Antipatterns 
+## 1. Software Design Antipatterns
 ### 1.1 Abstraction inversion
 ### 1.2 Ambigious viewpoint
 ### 1.3 Database-as-IPC
@@ -60,6 +60,13 @@
 
 ## 5. Cofiguration management Antipatterns
 ### 5.1 Dependency hell
+Dependency hell is a colloquial term for the frustration of some software users who have installed software packages which have dependencies on specific versions of other software packages. The dependency issue arises when several packages have dependencies on the same shared packages or libraries, but they depend on different and incompatible versions of the shared packages. If the shared package or library can only be installed in a single version, the user may need to address the problem by obtaining newer or older versions of the dependent packages. This, in turn, may break other dependencies and push the problem to another set of packages.
+
 ### 5.2 DLL hell
+A form of dependency hell occurring on Microsoft Windows.
+
 ### 5.3 Extension conflict
+A form of dependency hell occurring on the classic Mac OS.
+
 ### 5.4 JAR Hell
+A form of dependency hell occurring in the Java Runtime Environment before build tools like Apache Maven solved this problem in 2004.

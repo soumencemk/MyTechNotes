@@ -90,11 +90,11 @@ Anemic domain model is an anti-pattern in software development where the domain 
 
 The term "anemic domain model" was coined by Martin Fowler in his book "Patterns of Enterprise Application Architecture". According to Fowler, anemic domain models are problematic because they violate the principles of object-oriented programming, such as encapsulation and the use of behavior-rich objects. An anemic domain model can lead to several issues, including:
 
-Increased coupling: An anemic domain model often leads to a system where the domain objects are tightly coupled with external services, which can make the system more difficult to maintain and change.
+- a. Increased coupling: An anemic domain model often leads to a system where the domain objects are tightly coupled with external services, which can make the system more difficult to maintain and change.
 
-Reduced code reuse: Anemic domain models tend to have less reusable code, as the business logic is scattered across multiple services rather than being contained within the domain objects.
+- b. Reduced code reuse: Anemic domain models tend to have less reusable code, as the business logic is scattered across multiple services rather than being contained within the domain objects.
 
-Reduced maintainability: With business logic spread across multiple services, an anemic domain model can be harder to understand, modify and maintain.
+- c. Reduced maintainability: With business logic spread across multiple services, an anemic domain model can be harder to understand, modify and maintain.
 
 In summary, an anemic domain model is an anti-pattern because it undermines the principles of object-oriented programming and can lead to several problems in software development, such as increased coupling, reduced code reuse, and reduced maintainability.
 
